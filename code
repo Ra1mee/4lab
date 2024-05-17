@@ -1,18 +1,13 @@
+
 #include <iostream>
 
 using namespace std;
 
-// Функция для выполнения сложения
-double add(double num1, double num2) {
-    return num1 + num2;
-}
 
-// Функция для выполнения вычитания
 double subtract(double num1, double num2) {
     return num1 - num2;
 }
 
-// Функция для выполнения умножения
 double multiply(double num1, double num2) {
     return num1 * num2;
 }
@@ -37,10 +32,7 @@ int main() {
     cout << "Выберите операцию (+, -, *, /): ";
     cin >> operation;
 
-    switch(operation) {
-        case '+':
-            result = add(num1, num2);
-            break;
+    witch(operation) {
         case '-':
             result = subtract(num1, num2);
             break;
